@@ -16,6 +16,9 @@ Dynamix DNS Client supports and also integrates with the following Dynamic DNS s
 * [No-IP](https://www.noip.com/)
 * [Afraid FreeDNS](https://freedns.afraid.org/)
 
+## Full Documentation
+[Dynamix DNS Client Documentation](https://dynamix.run/files/Dynamix%20DNS%20Client%20Documentation.pdf)
+
 ## Requirements
 * Any version of Windows XP and greater (including all server versions).
 * .NET 4.0
