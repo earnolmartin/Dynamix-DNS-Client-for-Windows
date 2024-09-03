@@ -121,7 +121,7 @@ namespace DynamixDNS.Helpers
                 string url = endPointURL + host + "&myip=" + IPAddress;
                 WebAuthentication auth = new WebAuthentication();
                 auth.CredCache.Add(new Uri(url), "Basic", new NetworkCredential(settings.Login, settings.Password));
-                auth.Agent = "Dynamix DNS Update Client/1.0.0.0 earnolmartin@gmail.com - dynamix.run";
+                auth.Agent = "Dynamix DNS Update Client/1.0.0.1 earnolmartin@gmail.com - dynamix.run";
                 string response = GenericHelper.MakeHTTPGETRequest(url, auth);
                 if (response.StartsWith("Exception"))
                 {
