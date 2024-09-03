@@ -177,7 +177,7 @@
             this.grabIP.Name = "grabIP";
             this.grabIP.Size = new System.Drawing.Size(136, 17);
             this.grabIP.TabIndex = 7;
-            this.grabIP.Text = "Grab IP http://grabip.tk";
+            this.grabIP.Text = "Grab IP http://grabip.ezpz.cc";
             this.grabIP.UseVisualStyleBackColor = true;
             // 
             // dinofly

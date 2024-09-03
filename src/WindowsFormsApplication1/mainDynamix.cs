@@ -68,7 +68,9 @@ namespace DynamixDNS
                 {
                     response = response.Substring(first, last - first);
                 }
-                response = GenericHelper.ParseIPv4Addr(response);
+                
+                // Support IPv6 - remove parse... GenericHelper.CheckIPValid is sufficient
+                // response = GenericHelper.ParseIPv4Addr(response);
 
                 //Write the IP to oldip.txt
                 if (!string.IsNullOrEmpty(response) && GenericHelper.CheckIPValid(response))
@@ -401,7 +403,7 @@ namespace DynamixDNS
                     urlForIPCheck = "http://dinofly.com/misc/ipcheck.php";
                     break;
                 case 2:
-                    urlForIPCheck = "http://grabip.tk";
+                    urlForIPCheck = "http://grabip.ezpz.cc";
                     break;
                 default:
                     urlForIPCheck = "https://dynamix.run/ip.php";
