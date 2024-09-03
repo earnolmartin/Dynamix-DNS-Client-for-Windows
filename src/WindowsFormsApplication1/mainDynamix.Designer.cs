@@ -67,7 +67,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(351, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(592, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -169,7 +169,7 @@
             // 
             // stopScanButton
             // 
-            this.stopScanButton.Location = new System.Drawing.Point(237, 261);
+            this.stopScanButton.Location = new System.Drawing.Point(489, 261);
             this.stopScanButton.Name = "stopScanButton";
             this.stopScanButton.Size = new System.Drawing.Size(75, 23);
             this.stopScanButton.TabIndex = 7;
@@ -267,20 +267,21 @@
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(84, 42);
+            this.label4.Location = new System.Drawing.Point(0, 24);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 31);
+            this.label4.Size = new System.Drawing.Size(592, 31);
             this.label4.TabIndex = 17;
             this.label4.Text = "Dynamix DNS";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // mainDynamix
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(351, 316);
+            this.ClientSize = new System.Drawing.Size(592, 366);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.oldIPLabel);
             this.Controls.Add(this.oldIPLabelText);
@@ -298,6 +299,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximumSize = new System.Drawing.Size(600, 400);
+            this.MinimumSize = new System.Drawing.Size(600, 400);
             this.Name = "mainDynamix";
             this.Text = "Dynamix DNS Client";
             this.Load += new System.EventHandler(this.Dynamix_Load);
